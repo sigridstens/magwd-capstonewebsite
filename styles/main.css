@@ -1,0 +1,135 @@
+/* Apply a natural box layout model to all elements, but allowing components to change
+Credit: Paul Irish
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Global Styles */
+:root {
+    --red: #eb4827;
+    --yellow: #ddd413;
+    --blue: #0387c8;
+    --pink: #f5dbd9;
+    --darkgreen: #264d3b;
+    --brown: #936B3B;
+    --black: #000;
+    --white: #fff;
+}
+
+body {
+    font-family: forma-djr-deck, sans-serif;
+    letter-spacing: .075rem;
+    font-size: 1.4rem;
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.background{
+    width: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    border-bottom: 2px solid var(--yellow);
+    font-weight: 500;
+}
+
+.button {
+    background-color: var(--red);
+    padding: .85rem 1.25rem;
+    font-family: FatFrank, sans-serif;
+    font-size: 1.25rem;
+    color: var(--white);
+    border: solid 2px white;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.1em;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-family: fatfrank, sans-serif;
+    font-size: 1.85em;
+    color: var(--darkgreen);
+}
+
+h3 {
+    font-family: fatfrank, sans-serif;
+    font-size: 1.25em;
+    color: var(--yellow);
+}
+
+h4 {
+    font-family: fatfrank, sans-serif;
+    font-size: .95em;
+    color: var(--brown);
+}
+
+p {
+    margin: 1em 0 2em 0;
+    line-height: 2.25rem;
+}
+
+em {
+    color: var(--blue);
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+}
+.center {
+    margin: auto;
+}
+
+.col-container {
+    display: flex;
+
+}
+
+.col-text {
+    width: 52%;
+}
+
+.col-half {
+    flex-basis: 50%;
+}
+
+.content-section {
+    padding: 10rem 15%;
+    position: relative;
+    width: 100vw
+}
+
+.navigation a {
+    border-bottom: none;
+    width: fit-content;
+    padding: 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
