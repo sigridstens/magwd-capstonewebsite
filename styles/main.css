@@ -25,8 +25,7 @@ body {
     letter-spacing: .075rem;
     font-size: 1.4rem;
     position: relative;
-    width: 100vw;
-    overflow-x: hidden;
+    margin: 0;
 }
 
 .background{
@@ -117,19 +116,114 @@ em {
 }
 
 .content-section {
-    padding: 10rem 15%;
+    padding: 3em 0;
     position: relative;
-    width: 100vw
 }
 
-.navigation a {
+
+
+/************************
+ * Header Section Styling *
+ ***********************/
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 1em .75em .25em .75em;
+    width: fit-content;
+}
+
+.header-nav {
+    margin: 0 .5em;
+    padding: 0;
+    background-color: var(--pink);
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 2em;
+}
+
+.nav-item {
+    padding: 1em 1.5em;
+    margin: 0;
+    font-size: .75em;
+}
+
+.nav-item:hover {
+    background-color: var(--red);
+}
+
+img.logo {
+    width: 50%;
+}
+
+header a {
     border-bottom: none;
     width: fit-content;
     padding: 0;
 }
 
-.navigation ul {
-    list-style-type: none;
-    padding: 0;
+
+
+
+/************************
+ * Main Section Styling *
+ ***********************/
+
+main {
+    width: 100%;
+    padding: 2em 10%;
+    margin: 0;
 }
 
+
+
+/************************
+ * Footer Section Styling *
+ ***********************/
+
+/* Footer Section */
+footer {
+    text-align: right;
+    padding: 2em 3em 1em 3em;
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--darkgreen);
+    color: white;
+}
+
+footer p {
+    font-size: .65em;
+    line-height: 1.45em;
+    text-align: start;
+    letter-spacing: .1em;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 0 1em;
+}
+
+.social-icons a {
+    font-size: 1em;
+    color: white;
+    padding: .5em .5em .25em .5em;
+    border-bottom: none;
+}
+
+.social-icons a:hover {
+    color: var(--red);
+}

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="" />
+    <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iTTZtjsoFSERFn5m46MgzrsY6l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,12 +56,24 @@
       <updated>1601930640888</updated>
       <workItem from="1601930641908" duration="258000" />
       <workItem from="1601930912798" duration="1263000" />
-      <workItem from="1601932185771" duration="1172000" />
+      <workItem from="1601932185771" duration="4103000" />
     </task>
+    <task id="LOCAL-00001" summary="Added overview content and styling.">
+      <created>1601933675995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601933675995</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added overview content and styling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added overview content and styling." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
@@ -64,5 +84,13 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="475" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1601932364529" />
+    <state x="285" y="112" key="CommitChangelistDialog2" timestamp="1601933675885">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="285" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1601933675885" />
+    <state x="317" y="276" key="Vcs.Push.Dialog.v2" timestamp="1601933692950">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1601933692950" />
   </component>
 </project>
