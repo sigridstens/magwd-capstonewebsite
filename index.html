@@ -8,6 +8,8 @@
       content="Process and design of Sigrid Stensvold's M.A. capstone project, the Museum of Lost Experiences."
     />
     <script src="https://kit.fontawesome.com/b5e2a206ba.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/uus2lcd.css">
     <link rel="stylesheet" href="styles/main.css" />
     <title>Capstone, theMoLE</title>
@@ -15,35 +17,55 @@
 
   <body>
   <header>
-    <h1 class="logo-container">
-      <img src="assets/mole-logo.png" alt="The Museum of Lost Experiences" class="logo"/>
-    </h1>
+    <div class="fixed">
+      <div class="logo-container">
+        <img src="assets/molelogo-white.png" alt="The Museum of Lost Experiences" class="logo"/>
+        <div>
+          <h1>MAGWD Capstone 2020</h1>
+          <h2>Sigrid Stensvold</h2>
+        </div>
+      </div>
 
-    <nav class="header-nav">
-      <ul>
-        <li class="nav-item">Problem</li>
-        <li class="nav-item">Concept</li>
-        <li class="nav-item">Process</li>
-        <li class="nav-item">Research</li>
-        <li class="nav-item">Next Steps</li>
-      </ul>
-    </nav>
+      <nav class="header-nav">
+        <i class="fas fa-bars menu-icon"></i>
+        <i class="fas fa-times close-icon"></i>
+
+        <ul>
+          <li class="nav-item"><a href="#problem">Problem</a></li>
+          <li class="nav-item"><a href="#concept">Concept</a></li>
+          <li class="nav-item"><a href="
+          #process">Process</a></li>
+          <li class="nav-item"><a href="#research">Research</a></li>
+          <li class="nav-item"><a href="#next-steps">Next Steps</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="problem content-section">
-      <h2>Design Problem</h2>
-      <p>We have all felt loss or grief at some point in our lives. While grief is universal, it affects each of us differently and it is common to feel like we are alone in our experiences.</p>
+    <section class="problem content-section col-container">
+      <a class="anchor" id="problem"></a>
+      <div class="col-one-third col">
+        <h3>We all have felt loss at some point in our lives. While grief is universal, it affects each of us differently and it is common to feel like we are alone in our experiences.</h3>
 
-      <p>The Museum of Lost Experiences, a crowd-sourced collection of artistic representations about grief, aims to be a platform for people to connect around losses big and small and process our experiences creatively in a community space.</p>
+        <p>The Museum of Lost Experiences, a crowd-sourced collection of artistic representations about grief, aims to be a platform for people to connect around losses big and small and process our experiences creatively in a community space.</p>
+      </div>
+
+      <div class="col-two-third col">
+        <img src="https://via.placeholder.com/150C/O https://placeholder.com/"/>
+      </div>
     </section>
 
-    <section class="hook content-section">
-      <img src="assets/mole-logo-square.png" alt="The Museum of Lost Experiences logo."/>
-      <h2>The Museum of Lost Experiences (theMoLE) is a collection of crowd-sourced creative submissions on the subject of loss.</h2>
-    </section>
+    <section class="concept hook content-section">
+      <a class="anchor" id="concept"></a>
+      <h2>Concept</h2>
+      <article class="col-container align-items-center">
+        <div class="col col-one-third">
+          <img src="assets/mole-logo-square.png" alt="The Museum of Lost Experiences logo."/>
+        </div>
+        <h3 class="col col-two-third">The Museum of Lost Experiences (theMoLE) is a collection of crowd-sourced creative submissions on the subject of loss.</h3>
+      </article>
 
-    <section class="description content-section">
       <p>The Coronavirus pandemic has caused a seismic shift in our daily lives and we are all grieving our loss of experiences. While loss is universal, it affects each of us differently and it is common to feel alone in our experiences. The Museum of Lost Experiences—a crowd-sourced collection of artistic representations about things we miss—aims to be a platform for people to connect around losses big and small and use creativity to process uncomfortable emotions.</p>
 
       <p>Whether our pain comes from a change in routines, the death of someone close, or missing out on an opportunity; acknowledging that loss and expressing it can help us move through our feelings—experiencing and releasing them. The project will give people an opportunity to process grief by creating an artistic representation of their loss to submit it to the collection where it will live alongside others’ stories.</p>
@@ -51,31 +73,39 @@
       <p>What we miss says a lot about what we care about and stepping into someone else’s experience is an intimate encounter with what is important to them.  The Museum of Lost Experiences encourages viewers to engage with others’ stories of loss in order to reinforce that we are not alone in experiencing challenges in life. The project reimagines what a museum looks like by allowing submissions to be explored on the website, or checked out to view at home.</p>
     </section>
 
-    <section class="process content-section">
+    <section class="content-section">
+      <a class="anchor" id="process"></a>
       <h2>Design Process</h2>
-      <section class="research content-section"></section>
-      <h3>Research</h3>
-
       <h3>Branding & Identity Design</h3>
-
+      <div class="col-container">
+        <div class="col col-half">
+          <img src="assets/wordmap.jpg" alt="Using wordmapping to help generate ideas for logos"/>
+        </div>
+        <div class="col col-half">
+          <img src="assets/logo-ideation.jpg" alt="First hand-drawn logo ideas"/>
+        </div>
+      </div>
       <h3>Web Design</h3>
-
       <h3>Website Development</h3>
-
-      <h3>User Testing</h3>
-
-      <h3>Expert Feedback</h3>
-
       <h3>Collecting & Documenting Submissions</h3>
-
       <h3>Connecting Assets</h3>
       <h4>Motion Design</h4>
       <h4>Social Media Assets</h4>
-
       <h3>Collecting Submissions</h3>
+
+    </section>
+
+    <section class="content-section">
+      <a class="anchor" id="research"></a>
+      <h2>Research</h2>
+      <h3>Research Archive</h3>
+      <h3>Audience Survey</h3>
+      <h3>User Research</h3>
+      <h3>Expert Feedback</h3>
     </section>
 
     <section class="next-steps content-section">
+      <a class="anchor" id="next-steps"></a>
       <h2>What's next?</h2>
     </section>
   </main>

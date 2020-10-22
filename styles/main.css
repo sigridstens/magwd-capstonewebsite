@@ -15,17 +15,18 @@ html {
     --blue: #0387c8;
     --pink: #f5dbd9;
     --darkgreen: #264d3b;
-    --brown: #936B3B;
+    --brown: #936b3b;
     --black: #000;
     --white: #fff;
 }
 
 body {
-    font-family: forma-djr-deck, sans-serif;
-    letter-spacing: .075rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .015rem;
     font-size: 1.4rem;
     position: relative;
     margin: 0;
+    font-weight: 400;
 }
 
 .background{
@@ -34,23 +35,13 @@ body {
     top: 0;
     left: 0;
     z-index: -10;
-
 }
 
 a {
     text-decoration: none;
     color: var(--black);
-    border-bottom: 2px solid var(--yellow);
+    border-bottom: 2px solid black;
     font-weight: 500;
-}
-
-.button {
-    background-color: var(--red);
-    padding: .85rem 1.25rem;
-    font-family: FatFrank, sans-serif;
-    font-size: 1.25rem;
-    color: var(--white);
-    border: solid 2px white;
 }
 
 img {
@@ -58,40 +49,132 @@ img {
 }
 
 h1, h2, h3, h4, h5 {
-    line-height: 1.1em;
-}
-
-h1 {
-    margin: 0;
+    line-height: 1.25em;
 }
 
 h2 {
-    font-family: fatfrank, sans-serif;
     font-size: 1.85em;
-    color: var(--darkgreen);
 }
 
 h3 {
-    font-family: fatfrank, sans-serif;
     font-size: 1.25em;
-    color: var(--yellow);
+    line-height: 1.6em;
 }
 
 h4 {
-    font-family: fatfrank, sans-serif;
     font-size: .95em;
-    color: var(--brown);
 }
 
 p {
     margin: 1em 0 2em 0;
-    line-height: 2.25rem;
+    line-height: 1.5em;
 }
 
-em {
-    color: var(--blue);
-    font-style: normal;
-    line-height: 1.5;
+/************************
+ * Header Section Styling *
+ ***********************/
+header {
+    display: flex;
+    flex-direction: column;
+    max-width: 80em;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2em;
+    background-color: var(--darkgreen);
+}
+
+.logo-container {
+    padding: 1em .75em .25em .75em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+img.logo {
+    width: 25em;
+    margin: 0;
+}
+
+header h1, header h2 {
+    margin: .5em;
+    font-size: .7em;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-align: right;
+}
+
+.menu-icon, .close-icon {
+    color: white;
+    display: none;
+}
+
+.header-nav {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    position: absolute;
+    font-size: .95em;
+    bottom: -1em;
+    width: 90%;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav-item {
+    padding: .75em 1em;
+    margin: 0;
+    font-size: .75em;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid var(--darkgreen);
+    background-color: white;
+    color: black;
+}
+
+
+.nav-item:hover {
+    background-color: var(--pink);
+    text-decoration: underline;
+}
+
+header a {
+    border-bottom: none;
+    width: fit-content;
+    padding: 0;
+}
+
+
+
+
+
+/************************
+ * Main Section Styling *
+ ***********************/
+
+main {
+    margin: 3em auto 2em auto;
+    max-width: 80em;
 }
 
 .center-container {
@@ -104,7 +187,11 @@ em {
 
 .col-container {
     display: flex;
+    width: 100%;
+}
 
+.col {
+    padding: 0 1em;
 }
 
 .col-text {
@@ -115,73 +202,49 @@ em {
     flex-basis: 50%;
 }
 
+.col-one-quarter {
+    flex-basis: 25%;
+}
+
+.col-three-quarter {
+    flex-basis: 75%;
+}
+
+.col-one-third {
+    flex-basis: 33.33%;
+}
+
+.col-two-third {
+    flex-basis: 66.67%;
+}
+
 .content-section {
-    padding: 3em 0;
+    padding: 3em;
     position: relative;
+    margin: auto;
 }
 
+.content-section {
+    border-top: 1px solid var(--darkgreen)
+}
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+.align-items-center {
+    align-items: center;
+}
 
 /************************
- * Header Section Styling *
- ***********************/
-header {
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    padding: 1em .75em .25em .75em;
-    width: fit-content;
-}
-
-.header-nav {
-    margin: 0 .5em;
-    padding: 0;
-    background-color: var(--pink);
-}
-
-.header-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.nav-item {
-    padding: 1em 1.5em;
-    margin: 0;
-    font-size: .75em;
-}
-
-.nav-item:hover {
-    background-color: var(--red);
-    color: white;
-}
-
-img.logo {
-    width: 50%;
-}
-
-header a {
-    border-bottom: none;
-    width: fit-content;
-    padding: 0;
-}
-
-
-
-
-/************************
- * Main Section Styling *
+ * Problem Section Styling *
  ***********************/
 
-main {
-    width: 100%;
-    padding: 2em 10%;
-    margin: 0;
+.problem {
+    padding-top: 250px;
 }
 
 
@@ -189,8 +252,6 @@ main {
 /************************
  * Footer Section Styling *
  ***********************/
-
-/* Footer Section */
 footer {
     text-align: right;
     padding: 2em 3em 1em 3em;
@@ -227,4 +288,78 @@ footer p {
 
 .social-icons a:hover {
     color: var(--red);
+}
+
+
+
+/************************
+ * Responsive Styling *
+ ***********************/
+
+@media screen and (max-width: 806px) {
+    header {
+        position: unset;
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: .5em 2em;
+        z-index: 1;
+    }
+
+    img.logo {
+        width: 90%;
+    }
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .header-nav ul {
+        flex-direction: column;
+    }
+
+    .header-nav {
+        font-size: .95em;
+        top: 25vh;
+        left: 0;
+        width: fit-content;
+    }
+
+    header .header-nav .menu-icon {
+        display: block;
+        position: absolute;
+        top: 2.5em;
+        right: 1em;
+        font-size: 1.25em;
+    }
+
+    header .main-nav.nav-open {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: var(--darkgreen);
+        padding: 3em 2em;
+        color: white;
+    }
+
+    header .main-nav.nav-open ul {
+        display: flex;
+        top: unset;
+        margin: 0;
+    }
+
+    .content-section {
+        padding: 3em 2em 3em 7em;
+        flex-direction: column;
+        just
+    }
+
+    .problem {
+        padding-top: 8em;
+    }
 }
