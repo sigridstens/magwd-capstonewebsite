@@ -52,8 +52,14 @@ h1, h2, h3, h4, h5 {
     line-height: 1.25em;
 }
 
+h1 {
+    font-size: .8em;
+    color: var(--darkgreen);
+    margin: 0;
+}
+
 h2 {
-    font-size: 1.85em;
+    font-size: 1em;
 }
 
 h3 {
@@ -70,6 +76,9 @@ p {
     line-height: 1.5em;
 }
 
+.anchor {
+    transform: translate(-2em);
+}
 /************************
  * Header Section Styling *
  ***********************/
@@ -80,6 +89,7 @@ header {
     position: relative;
     z-index: 1;
     padding: 0;
+    height: 12rem;
 }
 
 .fixed {
@@ -87,11 +97,9 @@ header {
     top: 0;
     width: 100%;
     padding: 2em;
-    background-color: var(--darkgreen);
 }
 
 .logo-container {
-    padding: 1em .75em .25em .75em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -99,62 +107,73 @@ header {
     width: 100%;
 }
 
-img.logo {
+.logo-container figure {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
     width: 25em;
     margin: 0;
 }
 
-header h1, header h2 {
-    margin: .5em;
-    font-size: .7em;
-    font-weight: 400;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    text-align: right;
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 0 0 1em;
 }
 
-.menu-icon, .close-icon {
-    color: white;
+.social-icons a {
+    font-size: 1.25em;
+    padding: .5em .5em .25em .5em;
+    border-bottom: none;
+}
+
+.social-icons a:hover {
+    color: var(--yellow);
+}
+
+
+
+.fas.menu-icon, .fas.close-icon {
     display: none;
+    color: var(--darkgreen);
 }
 
 .header-nav {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .08em;
-    position: absolute;
     font-size: .95em;
-    bottom: -1em;
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-nav ul {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
-    width: 100%;
     padding: 0;
-    margin: 0 auto;
+    width: fit-content;
 }
 
 .nav-item {
-    padding: .75em 1em;
+    padding: .75em 2em .75em 0;
     margin: 0;
-    font-size: .75em;
-    flex: 1;
+    font-size: .65em;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    border: 1px solid var(--darkgreen);
-    background-color: white;
+    text-align: left;
     color: black;
 }
 
 
 .nav-item:hover {
-    background-color: var(--pink);
+    color: var(--red);
     text-decoration: underline;
 }
 
@@ -171,124 +190,52 @@ header a {
 /************************
  * Main Section Styling *
  ***********************/
-
 main {
-    margin: 3em auto 2em auto;
-    max-width: 80em;
+    white-space: nowrap;
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh - 12rem);
+    overflow-y: hidden;
+    margin-top: 12rem;
 }
 
-.center-container {
-    display: flex;
-    flex-direction: column;
-}
-.center {
-    margin: auto;
+main > section {
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    height: inherit;
+    width: fit-content;
 }
 
 .col-container {
+    height: inherit;
     display: flex;
-    width: 100%;
-}
-
-.col {
-    padding: 0 1em;
+    justify-content: flex-start;
+    align-items: flex-end;
+    white-space: normal;
+    min-width: 80vw;
+    padding: 2em;
 }
 
 .col-text {
-    width: 52%;
+    max-width: 32em;
+    margin-right: 20em;
 }
 
-.col-half {
-    flex-basis: 50%;
-}
 
-.col-one-quarter {
-    flex-basis: 25%;
-}
 
-.col-three-quarter {
-    flex-basis: 75%;
-}
 
-.col-one-third {
-    flex-basis: 33.33%;
-}
 
-.col-two-third {
-    flex-basis: 66.67%;
-}
 
-.content-section {
-    padding: 3em;
-    position: relative;
-    margin: auto;
-}
 
-.content-section {
-    border-top: 1px solid var(--darkgreen)
-}
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
 
-.align-items-center {
-    align-items: center;
-}
 
 /************************
  * Problem Section Styling *
  ***********************/
 
-.problem {
-    padding-top: 250px;
-}
 
-
-
-/************************
- * Footer Section Styling *
- ***********************/
-footer {
-    text-align: right;
-    padding: 2em 3em 1em 3em;
-    margin: 0;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: var(--darkgreen);
-    color: white;
-}
-
-footer p {
-    font-size: .65em;
-    line-height: 1.45em;
-    text-align: start;
-    letter-spacing: .1em;
-}
-
-.social-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0 0 0 1em;
-}
-
-.social-icons a {
-    font-size: 1em;
-    color: white;
-    padding: .5em .5em .25em .5em;
-    border-bottom: none;
-}
-
-.social-icons a:hover {
-    color: var(--red);
-}
 
 
 
@@ -324,7 +271,6 @@ footer p {
         font-size: .95em;
         top: 25vh;
         left: 0;
-        width: fit-content;
     }
 
     header .header-nav .menu-icon {
@@ -356,7 +302,6 @@ footer p {
     .content-section {
         padding: 3em 2em 3em 7em;
         flex-direction: column;
-        just
     }
 
     .problem {

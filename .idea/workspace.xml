@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/logo-ideation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mole-logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/molelogo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wordmap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mole-horizontal-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -64,7 +62,8 @@
       <workItem from="1601932185771" duration="4814000" />
       <workItem from="1602189939986" duration="855000" />
       <workItem from="1603223411933" duration="13043000" />
-      <workItem from="1603311710476" duration="3739000" />
+      <workItem from="1603311710476" duration="4970000" />
+      <workItem from="1603993971706" duration="7949000" />
     </task>
     <task id="LOCAL-00001" summary="Added overview content and styling.">
       <created>1601933675995</created>
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601939796594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added some content. Styled navigation and header.">
+      <created>1603411144327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603411144327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +103,8 @@
     <MESSAGE value="Added overview content and styling." />
     <MESSAGE value="Styled header, nav, footer, and main element." />
     <MESSAGE value="Fixed nav overflow issue and changed hover color." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed nav overflow issue and changed hover color." />
+    <MESSAGE value="Added some content. Styled navigation and header." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some content. Styled navigation and header." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
@@ -108,13 +115,15 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="475" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1601932364529" />
-    <state x="285" y="112" key="CommitChangelistDialog2" timestamp="1601939796502">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="242" y="-1294" key="CommitChangelistDialog2" timestamp="1603411144191">
+      <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
+    <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1603411144191" />
     <state x="285" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1601939796502" />
-    <state x="317" y="276" key="Vcs.Push.Dialog.v2" timestamp="1601939797946">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2" timestamp="1603411146010">
+      <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
+    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1603411146010" />
     <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1601939797946" />
     <state x="42" y="-1092" width="670" height="676" key="search.everywhere.popup" timestamp="1603410442026">
       <screen x="-192" y="-1417" width="2560" height="1417" />

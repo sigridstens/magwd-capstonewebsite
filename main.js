@@ -12,5 +12,13 @@ closeButton.addEventListener('click', function(headerNav) {
   headerNav.classList.toggle("nav-open");
 });
 
+$(function() {
+  let mousewheel = $("body").mousewheel;
+  mousewheel(function(event, delta) {
+    this.scrollLeft -= (delta * 30);
+    event.preventDefault();
+  });
+});
 
 
+v
