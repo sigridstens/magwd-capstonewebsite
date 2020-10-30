@@ -204,7 +204,8 @@ main > section {
     display: inline-block;
     vertical-align: top;
     height: inherit;
-    width: fit-content;
+    width: max-content;
+    overflow-x: visible;
 }
 
 .col-container {
@@ -217,11 +218,29 @@ main > section {
     padding: 2em;
 }
 
-.col-text {
-    max-width: 32em;
-    margin-right: 20em;
+.align-flexstart {
+    align-items: flex-start;
+    padding-top: 10em;
 }
 
+.col {
+    max-width: 40em;
+}
+
+.vert-img img {
+    height: 60vh;
+    width: auto;
+}
+
+.col-space {
+    max-width: 32em;
+    margin-right: 15em;
+}
+
+.col-nospace {
+    width: 100%;
+    max-width: 32em;
+}
 
 
 
