@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/finedog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pistachio-peppy.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
@@ -64,7 +62,9 @@
       <workItem from="1603223411933" duration="13043000" />
       <workItem from="1603311710476" duration="4970000" />
       <workItem from="1603993971706" duration="10379000" />
-      <workItem from="1604008402284" duration="608000" />
+      <workItem from="1604008402284" duration="2525000" />
+      <workItem from="1604079731905" duration="825000" />
+      <workItem from="1604244647803" duration="4408000" />
     </task>
     <task id="LOCAL-00001" summary="Added overview content and styling.">
       <created>1601933675995</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604004380223</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Continued to style content sections, using creating placeholder images. Began adding didactic content.">
+      <created>1604064959940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604064959940</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +120,8 @@
     <MESSAGE value="Fixed nav overflow issue and changed hover color." />
     <MESSAGE value="Added some content. Styled navigation and header." />
     <MESSAGE value="Pivoted to a horizontally scrolling site. Set up basic header structure and content section structure. Attempted to co-opt mouse scroll to do horizontal scrolling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pivoted to a horizontally scrolling site. Set up basic header structure and content section structure. Attempted to co-opt mouse scroll to do horizontal scrolling." />
+    <MESSAGE value="Continued to style content sections, using creating placeholder images. Began adding didactic content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued to style content sections, using creating placeholder images. Began adding didactic content." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
@@ -132,16 +140,16 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="475" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1601932364529" />
-    <state x="0" y="112" key="CommitChangelistDialog2" timestamp="1604005811758">
+    <state x="0" y="112" key="CommitChangelistDialog2" timestamp="1604064959735">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1603411144191" />
-    <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1604005811758" />
-    <state x="317" y="276" key="Vcs.Push.Dialog.v2" timestamp="1604004381475">
+    <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064959735" />
+    <state x="317" y="276" key="Vcs.Push.Dialog.v2" timestamp="1604064961871">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1603411146010" />
-    <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1604004381475" />
+    <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064961871" />
     <state x="42" y="-1092" width="670" height="676" key="search.everywhere.popup" timestamp="1603410442026">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>

@@ -44,10 +44,6 @@ a {
     font-weight: 500;
 }
 
-img {
-    width: 100%;
-}
-
 h1, h2, h3, h4, h5 {
     line-height: 1.25em;
 }
@@ -59,7 +55,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 h3 {
@@ -224,22 +220,33 @@ main > section {
 }
 
 .col {
-    max-width: 40em;
-}
-
-.vert-img img {
-    height: 60vh;
-    width: auto;
+    max-width: 28em;
+    width: 100%;
+    margin: 0 1em;
 }
 
 .col-space {
-    max-width: 32em;
-    margin-right: 15em;
+    margin-right: 15vw;
+}
+
+.col-img-h100, .col-img-center {
+    max-width: unset;
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+
+.col-img-h100 img {
+    height: 100%;
+}
+
+.col-img-center img {
+    height: 60%;
+    margin: auto;
 }
 
 .col-nospace {
     width: 100%;
-    max-width: 32em;
 }
 
 
