@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/jquery.mousewheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capstone-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +46,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,6 +69,9 @@
       <workItem from="1604008402284" duration="2525000" />
       <workItem from="1604079731905" duration="825000" />
       <workItem from="1604244647803" duration="4408000" />
+      <workItem from="1604294565189" duration="394000" />
+      <workItem from="1604548831795" duration="598000" />
+      <workItem from="1605391715111" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="Added overview content and styling.">
       <created>1601933675995</created>
@@ -108,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604064959940</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Started adding narrative text to site.">
+      <created>1604294594507</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604294594507</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +135,8 @@
     <MESSAGE value="Added some content. Styled navigation and header." />
     <MESSAGE value="Pivoted to a horizontally scrolling site. Set up basic header structure and content section structure. Attempted to co-opt mouse scroll to do horizontal scrolling." />
     <MESSAGE value="Continued to style content sections, using creating placeholder images. Began adding didactic content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued to style content sections, using creating placeholder images. Began adding didactic content." />
+    <MESSAGE value="Started adding narrative text to site." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started adding narrative text to site." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
@@ -140,16 +155,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="475" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1601932364529" />
-    <state x="0" y="112" key="CommitChangelistDialog2" timestamp="1604064959735">
+    <state x="0" y="112" key="CommitChangelistDialog2" timestamp="1604294594208">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1603411144191" />
+    <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@0.23.1680.1027" timestamp="1604294594208" />
     <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064959735" />
-    <state x="317" y="276" key="Vcs.Push.Dialog.v2" timestamp="1604064961871">
+    <state x="317" y="276" key="Vcs.Push.Dialog.v2" timestamp="1604294596468">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1603411146010" />
+    <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@0.23.1680.1027" timestamp="1604294596468" />
     <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064961871" />
+    <state x="-115" y="-1023" key="new project wizard" timestamp="1605393845478">
+      <screen x="-192" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-115" y="-1023" key="new project wizard/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605393845478" />
     <state x="42" y="-1092" width="670" height="676" key="search.everywhere.popup" timestamp="1603410442026">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
