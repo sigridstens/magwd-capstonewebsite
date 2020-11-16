@@ -45,7 +45,7 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 
 h1 {
@@ -55,16 +55,24 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25em;
+    font-size: 1.55em;
+    color: var(--darkgreen);
 }
 
 h3 {
     font-size: 1.25em;
     line-height: 1.6em;
+    color: var(--brown);
 }
 
 h4 {
-    font-size: .95em;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1em;
+    margin: 0;
 }
 
 p {
@@ -72,8 +80,12 @@ p {
     line-height: 1.5em;
 }
 
+em {
+    color: var(--yellow);
+    font-style: normal;
+}
+
 .anchor {
-    transform: translate(-2em);
 }
 /************************
  * Header Section Styling *
@@ -202,6 +214,7 @@ main > section {
     height: inherit;
     width: max-content;
     overflow-x: visible;
+    margin-right: 10vw;
 }
 
 .col-container {
@@ -211,22 +224,35 @@ main > section {
     align-items: flex-end;
     white-space: normal;
     min-width: 80vw;
-    padding: 2em;
+    padding: 0 2em;
 }
 
 .align-flexstart {
+    display: flex;
     align-items: flex-start;
-    padding-top: 10em;
+}
+
+.align-flexstart .col-align-offset {
+    transform: translateY(-5.25rem);
 }
 
 .col {
-    max-width: 28em;
     width: 100%;
     margin: 0 1em;
 }
 
-.col-space {
-    margin-right: 15vw;
+.col-text {
+    padding: 0 2em 4em 2em;
+    max-width: 32em;
+}
+
+.col-text-smallwidth {
+    max-width: 28em;
+    padding: 0 2em 4em 2em;
+}
+
+.col-text p {
+    margin-bottom: 0;
 }
 
 .col-img-h100, .col-img-center {
@@ -236,24 +262,69 @@ main > section {
     display: flex;
 }
 
-.col-img-h100 img {
+.col img {
     height: 100%;
 }
 
-.col-img-center img {
-    height: 60%;
+.col-img-h100 {
+    height: 100%;
+}
+
+.col-img-h75 {
+    height: 75%;
+    padding: 0 5em;
+    width: fit-content;
+}
+
+.col-img-h50 {
+    height: 50%;
+    margin-right: 20vw;
+    padding: 0 5em;
+    width: fit-content;
+}
+
+.col-img-h25 {
+    height: 25%;
+    padding: 0 5em;
+    width: fit-content;
+}
+
+.col-img-center {
     margin: auto;
 }
 
-.col-nospace {
-    width: 100%;
+.col-img-padbottom {
+    margin-bottom: 4em;
 }
 
+.col-nospace {
+    margin-right: unset;
+}
 
+.col-space {
+    margin-right: 20vw;
+}
 
+.col-halfspace {
+    margin-right: 10vw;
+}
 
+.col-text-center {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
 
+.col-text-center div {
+    margin: auto;
+}
 
+/************************
+ * Hook Section Styling *
+ ***********************/
+#hook {
+    padding-left: 2em;
+}
 
 
 
