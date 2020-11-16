@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/collage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/kayla-submission.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo-digitization-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/masks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mole-logo-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/moodboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/photo-memories.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/siblingphoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sketchbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/submission-mockup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/final-logos.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />

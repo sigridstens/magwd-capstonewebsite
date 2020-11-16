@@ -42,6 +42,7 @@ a {
     color: var(--black);
     border-bottom: 2px solid black;
     font-weight: 500;
+    width: inherit;
 }
 
 h1, h2, h3, h4, h5 {
@@ -87,6 +88,8 @@ em {
 
 .anchor {
 }
+
+
 /************************
  * Header Section Styling *
  ***********************/
@@ -207,6 +210,19 @@ main {
     margin-top: 12rem;
 }
 
+main a {
+    border-bottom: 3px solid var(--yellow);
+}
+
+main a:hover {
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+}
+
+main a.no-link-style {
+    border-bottom: none;
+}
+
 main > section {
     white-space: nowrap;
     display: inline-block;
@@ -230,10 +246,15 @@ main > section {
 .align-flexstart {
     display: flex;
     align-items: flex-start;
+    width: fit-content;
 }
 
 .align-flexstart .col-align-offset {
     transform: translateY(-5.25rem);
+}
+
+.align-flexstart .col-align-offset-hfour {
+    transform: translateY(-2rem);
 }
 
 .col {
