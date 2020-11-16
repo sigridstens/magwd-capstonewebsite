@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/final-logos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/development-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/survey-results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/survey-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/user-testing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/web-design-mockup.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
@@ -23,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iTTZtjsoFSERFn5m46MgzrsY6l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -138,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605399273482</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated content, fixed issues with columns">
+      <created>1605505568391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605505568391</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +167,8 @@
     <MESSAGE value="Started adding narrative text to site." />
     <MESSAGE value="Added horizontal scrolling to the main-content section of the site." />
     <MESSAGE value="Deleted errors in js file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted errors in js file" />
+    <MESSAGE value="Updated content, fixed issues with columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated content, fixed issues with columns" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
@@ -173,16 +187,20 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="475" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1601932364529" />
-    <state x="242" y="-1294" key="CommitChangelistDialog2" timestamp="1605399273378">
+    <state x="242" y="-1294" key="CommitChangelistDialog2" timestamp="1605505568246">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605399273378" />
+    <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605505568246" />
     <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@0.23.1680.1027" timestamp="1604294594208" />
     <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064959735" />
-    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2" timestamp="1605399274647">
+    <state x="-92" y="-1317" width="1317" height="1217" key="DiffContextDialog" timestamp="1605502553638">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605399274647" />
+    <state x="-92" y="-1317" width="1317" height="1217" key="DiffContextDialog/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605502553638" />
+    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2" timestamp="1605505593926">
+      <screen x="-192" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605505593926" />
     <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@0.23.1680.1027" timestamp="1604294596468" />
     <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064961871" />
     <state x="-115" y="-1023" key="new project wizard" timestamp="1605393845478">
