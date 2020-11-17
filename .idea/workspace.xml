@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/development-screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/survey-results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/survey-screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/user-testing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/web-design-mockup.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605505568391</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added remaining content.">
+      <created>1605508672197</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605508672197</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +169,8 @@
     <MESSAGE value="Added horizontal scrolling to the main-content section of the site." />
     <MESSAGE value="Deleted errors in js file" />
     <MESSAGE value="Updated content, fixed issues with columns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated content, fixed issues with columns" />
+    <MESSAGE value="Added remaining content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added remaining content." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
@@ -187,20 +189,20 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="475" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1601932364529" />
-    <state x="242" y="-1294" key="CommitChangelistDialog2" timestamp="1605505568246">
+    <state x="242" y="-1294" key="CommitChangelistDialog2" timestamp="1605508672049">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605505568246" />
+    <state x="242" y="-1294" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605508672049" />
     <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027/-192.-1417.2560.1417@0.23.1680.1027" timestamp="1604294594208" />
     <state x="0" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064959735" />
     <state x="-92" y="-1317" width="1317" height="1217" key="DiffContextDialog" timestamp="1605502553638">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
     <state x="-92" y="-1317" width="1317" height="1217" key="DiffContextDialog/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605502553638" />
-    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2" timestamp="1605505593926">
+    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2" timestamp="1605508673522">
       <screen x="-192" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605505593926" />
+    <state x="291" y="-1068" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@-192.-1417.2560.1417" timestamp="1605508673522" />
     <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-192.-1417.2560.1417@0.23.1680.1027" timestamp="1604294596468" />
     <state x="317" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1604064961871" />
     <state x="-115" y="-1023" key="new project wizard" timestamp="1605393845478">
