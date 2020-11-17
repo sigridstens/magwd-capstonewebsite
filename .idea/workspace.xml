@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb8b354-e5d4-42e5-9184-2f6390cc183f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
@@ -76,6 +75,7 @@
       <workItem from="1604548831795" duration="598000" />
       <workItem from="1605391715111" duration="24294000" />
       <workItem from="1605652236100" duration="201000" />
+      <workItem from="1605652451925" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Added overview content and styling.">
       <created>1601933675995</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605652429637</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed some type errors.">
+      <created>1605652580285</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605652580285</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +186,8 @@
     <MESSAGE value="Deleted errors in js file" />
     <MESSAGE value="Updated content, fixed issues with columns" />
     <MESSAGE value="Added remaining content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remaining content." />
+    <MESSAGE value="Fixed some type errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some type errors." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="118" key="#Project_Structure" timestamp="1601930643487">
